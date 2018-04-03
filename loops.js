@@ -8,3 +8,10 @@ function forLoop(array) {   for ( let i = 0; i < 25; i++) {
   return array;
 }
 function whileLoop(number) {
+  let countdown = n;
+  while (countdown > 0) {
+    console.log(number);
+    number--;
+  }
+  return "done";
+}
