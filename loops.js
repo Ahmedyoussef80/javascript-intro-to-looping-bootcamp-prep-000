@@ -7,8 +7,8 @@ function forLoop(array) {   for ( let i = 0; i < 25; i++) {
   }
   return array;
 }
-function whileLoop(number) {
-  let countdown = number;
+function whileLoop(n) {
+  let countdown = n;
   while (countdown > 0) {
     countdown--;
     console.log(countdown--);
